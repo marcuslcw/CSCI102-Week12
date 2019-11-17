@@ -18,3 +18,10 @@ def UpdateString(string_1, string_2, index_int):
         else:
             new_string += string_1[i]    
     return new_string
+
+def FindWordCount(a_list, a_string):
+    count = 0
+    for word in a_list:
+        count += word.count(a_string)
+    return count
+
