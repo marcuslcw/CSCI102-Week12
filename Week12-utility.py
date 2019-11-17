@@ -36,3 +36,7 @@ def ScoreFinder(list_1, list_2, string_3):
             break
         else:
             print('OUTPUT: player not found')
+
+def Union(list_3, list_4):
+    o_list = list(set(list_3) | set(list_4))
+    return o_list
