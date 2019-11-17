@@ -40,3 +40,8 @@ def ScoreFinder(list_1, list_2, string_3):
 def Union(list_3, list_4):
     o_list = list(set(list_3) | set(list_4))
     return o_list
+
+def Intersection(list_5, list_6):
+    o_list = list(set(list_5) & set(list_6))
+    return o_list
+
