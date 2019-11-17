@@ -45,3 +45,9 @@ def Intersection(list_5, list_6):
     o_list = list(set(list_5) & set(list_6))
     return o_list
 
+def NotIn(list_7, list_8):
+    not_in = []
+    for player in list_7:
+        if player not in list_8:
+            not_in.append(player)
+    return not_in
